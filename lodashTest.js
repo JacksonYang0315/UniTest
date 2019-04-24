@@ -157,4 +157,6 @@ let array = [
   ]
 
 
-  console.log(_.some(array,'date'))
+  array.reduce((initialValue, currentValue, currentIndex, array)=>{
+      console.log(initialValue,currentValue)
+  })
